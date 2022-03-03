@@ -1,3 +1,5 @@
+//Template Literals and Default Parameters Value Section:
+
 // The [movie = "Fern Gully"] is setting a default if nothing is called in the parameter part of the function.
 function favMovie(movie = "Fern Gulley", name = "Tommy Wiseau") {
     console.log(`My name is ${name} and my favorite movie is ${movie}`);
@@ -28,7 +30,7 @@ console.log(`
 console.log()
 
 
-
+//Arrow Functions Section:
 let doMath = (val1, val2) => {
     return {
         exponent: val1**val2, //Another way to do this is: Math.pow(val1, val2)
@@ -42,6 +44,7 @@ console.log(`the exponent result is ${doneMath.exponent} and the product is ${do
 
 
 
+//Spread Syntax Section:
 const logThreeThings = (name, location, favFood) => console.table(name, location, favFood);
 const arr = ["Paul", "Birmingham", "Kimchi"];
 
